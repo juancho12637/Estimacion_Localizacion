@@ -1,0 +1,10 @@
+E0: código de referencia sin cambios.
+E1: unica sustitucion verificada: Q_gps = diag([0.9, 0.9]).^2; -> Q_gps = diag([0.45, 0.45]).^2;
+E2: unica sustitucion verificada: Q_gps = diag([0.9, 0.9]).^2; -> Q_gps = diag([1.8, 1.8]).^2;
+E3: unica sustitucion verificada: Q_imu = deg2rad(20)^2; -> Q_imu = deg2rad(10)^2;
+E4: unica sustitucion verificada: Q_imu = deg2rad(20)^2; -> Q_imu = deg2rad(40)^2;
+E0: ejecucion finalizada; codigo y auxiliares verificados.
+E1: ejecucion finalizada; codigo y auxiliares verificados.
+E2: ejecucion finalizada; codigo y auxiliares verificados.
+E3: ejecucion finalizada; codigo y auxiliares verificados.
+E4: ejecucion finalizada; codigo y auxiliares verificados.
