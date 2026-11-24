@@ -1,6 +1,6 @@
 # Estimación de estado con filtros de localización
 
-Actividad PGRA02_UA2_AA1 · Robótica móvil diferencial en MATLAB.
+Actividad PGRA02_UA2_AA1 · Estimación de localización en MATLAB.
 
 La solución compara EKF, UKF y MCL en un mapa de ocupación conocido, con mediciones GPS e IMU. Se conserva el ciclo protegido de la plantilla docente y se estudian las variaciones autorizadas de `Q_gps` y `Q_imu`.
 
