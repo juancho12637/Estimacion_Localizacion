@@ -139,4 +139,9 @@ de evaluación y el análisis de resultados.
 
 [Ejecución del Live Script](resultados/actividad/)
 
-[Verificación de integridad](verificacion_integridad.md)
+## Live Script de MATLAB
+
+- [Consultar actividad ejecutada en PDF](resultados/actividad/20261124_105243_235/actividad.pdf)
+- [Archivo MATLAB Live Script (.mlx)](resultados/actividad/20261124_105243_235/actividad.mlx)
+- [Código fuente MATLAB (.m)](actividad.m)
+
