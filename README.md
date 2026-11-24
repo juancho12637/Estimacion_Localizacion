@@ -72,7 +72,7 @@ El automatizador no establece una semilla. **El planificador docente `auxiliar/p
 
 El ciclo original propaga el estado a 10 Hz. EKF y UKF se corrigen cuando hay GPS (aproximadamente 1 Hz); MCL aprovecha IMU a 10 Hz. El criterio de parada compara las tres poses estimadas con la meta y no la pose real. Estas condiciones se mantienen.
 
-## Resultados de una ejecución completa
+## Resultados
 
 ```text
 resultados/escenarios_evaluados/<fecha_hora>/
@@ -100,7 +100,7 @@ resultados/escenarios_evaluados/<fecha_hora>/
 
 La ejecución completa produce 24 gráficas: diez de simulación, cuatro comparativas y diez de evaluación ampliada. `navegacion.csv` distingue distancia real y estimada a la meta. Los resultados parciales se conservan si ocurre un error; consultar `verificacion_bloques.txt` y el mensaje de MATLAB.
 
-## Evaluación independient
+## Evaluación
 
 La evaluación se ejecuta automáticamente al finalizar E0–E4. Para repetirla sobre los historiales sin simular nuevamente, renombrar primero la carpeta `evaluacion` existente y ejecutar desde la raíz:
 
@@ -108,7 +108,7 @@ La evaluación se ejecuta automáticamente al finalizar E0–E4. Para repetirla 
 resumen = evaluar_trayectorias(salida);
 ```
 
-También puede suministrarse la ruta completa de una ejecución. Se calculan APE y RPE traslacional y angular en SE(2), con intervalos de 0,1 y 1 s, sin alineación ni escala. Se exportan estadísticas y P95. No se utiliza EVO Toolkit.
+También puede suministrarse la ruta completa de una ejecución. Se calculan APE y RPE traslacional y angular en SE(2), con intervalos de 0,1 y 1 s, sin alineación ni escala. Se exportan estadísticas y P95.
 
 ## Funciones auxiliares
 
